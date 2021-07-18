@@ -37,7 +37,6 @@ def change():
     btn['bg']=color
     c = Color(color)
     btn['text']=c
-    root['bg']="#FFD700"
     
 btn = Button(root, fg='black', text="Change", command=random_color_val)
 btn.place(relx=0.5, rely=0.5, anchor=CENTER)
